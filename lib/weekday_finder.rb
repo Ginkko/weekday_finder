@@ -6,5 +6,6 @@ class Time
     elsif
       self.tuesday?()
       return "Tuesday"
-
+    end
   end
+end
