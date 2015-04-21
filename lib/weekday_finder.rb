@@ -1,4 +1,10 @@
 class Time
   define_method(:weekday_finder) do
-    #Weekday finder comapres date to each day of the week.
+    if
+      self.monday?()
+      return "Monday"
+    elsif
+      self.tuesday?()
+      return "Tuesday"
+
   end
